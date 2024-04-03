@@ -1,0 +1,70 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<h1>Contact me</h1>
+
+<body>
+    <form>
+        <label for="firstname">What's your firstname ?</label>
+        <input type="text" id="firstname">
+        <br>
+        <form>
+            <label for="secondname">What's your secondname ?</label>
+            <input type="text" id="secondname">
+    </form>
+    <label>Quel est votre email: <input type="email" required></label>
+    <br>
+    <label>Quel est votre date de naissance: <input type="date"></label>
+    <br>
+    <label>Nombre de chats: <input type="number"></label>
+</body>
+<br>
+<label>Password: <input type="password"></label>
+<br>
+<label>S'inscrire à la newsletter <input type="checkbox" value="newsletter"></label>
+<br>
+<fieldset>
+    <legend>Veuillez choisir vos newsletters :</legend>
+      <input type="checkbox" id="webdev" name="interest" value="coding">
+      <label for="webdev">Animaux</label>
+      <br>
+      <input type="checkbox" id="music" name="interest" value="music">
+      <label for="music">Le monde des chats</label>
+  </fieldset>
+  <br>
+
+</html><fieldset>
+    <legend>Quel est votre animal preferé:</legend>
+    <input type="radio" id="chat" name="favoriteanimal" value="chat">
+    <label for="chat">chat</label>
+    <br>
+    <input type="radio" id="chien" name="favoriteanimal" value="chien">
+    <label for="chien">chien</label>
+    <br>
+    <input type="radio" id="cheval" name="favoriteanimal" value="cheval">
+    <label for="cheval">cheval</label>
+</fieldset>
+<br>
+<h2>Ecoutez l'extrait</h2>
+<input type="range" id="volume" name="volume" min="0" max="25">
+<label for="volume">Volume</label>
+<br>
+<input type="submit" value="Valider mon inscription">
+<h3>Adopt</h3>
+<label for="pet-select">Quel animal voulez vous adopter?</label>
+<select name="pets" id="pet-select">
+    <option value="">--Veuillez choisir une option--</option>
+    <option value="dog">Chien</option>
+    <option value="cat">Chat</option>
+    <option value="cheval">cheval</option>
+</select>
+<br>
+<label>Ecrivez votre message:
+    <br>
+    <textarea id="message" name="message" rows="5" cols="33" maxlength="500" wrap>Tapez votre message ici...</textarea>
+  </label>

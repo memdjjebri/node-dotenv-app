@@ -1,0 +1,16 @@
+h1 { 
+    color: #a306b6; 
+  }
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin:0;
+  } 
+  ul {background-color: #a306b6;
+    list-style-type: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+    
+  }

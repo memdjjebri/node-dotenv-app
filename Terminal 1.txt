@@ -1,0 +1,138 @@
+
+memed@Memedjjebri MINGW64 ~
+$ dwp
+bash: dwp: command not found
+
+memed@Memedjjebri MINGW64 ~
+$ ls
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ document/
+ Documents/
+ Downloads/
+ Favorites/
+ helloWorld.txt
+ Links/
+'Local Settings'@
+'Menu Démarrer'@
+'Mes documents'@
+ Modèles@
+ Music/
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ Pictures/
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ toto
+ Videos/
+"Voisinage d'impression"@
+'Voisinage réseau'@
+
+memed@Memedjjebri MINGW64 ~
+$ ls -l
+total 9962
+drwxr-xr-x 1 memed 197609       0 janv. 13 15:58
+  AppData/
+lrwxrwxrwx 1 memed 197609      30 janv. 13 15:58 'Application Data' -> /c/Users/memed/AppData/Roaming/
+drwxr-xr-x 1 memed 197609       0 janv. 13 16:08
+  Contacts/
+lrwxrwxrwx 1 memed 197609      58 janv. 13 15:58  Cookies -> /c/Users/memed/AppData/Local/Microsoft/Windows/INetCookies/
+drwxr-xr-x 1 memed 197609       0 févr. 29 14:22
+  Desktop/
+drwxr-xr-x 1 memed 197609       0 févr. 29 14:52
+  document/
+drwxr-xr-x 1 memed 197609       0 févr. 29 12:13
+  Documents/
+drwxr-xr-x 1 memed 197609       0 févr. 28 22:35
+  Downloads/
+drwxr-xr-x 1 memed 197609       0 janv. 13 16:08
+  Favorites/
+-rw-r--r-- 1 memed 197609      13 févr. 29 11:30  helloWorld.txt
+drwxr-xr-x 1 memed 197609       0 janv. 13 16:08
+  Links/
+lrwxrwxrwx 1 memed 197609      28 janv. 13 15:58 'Local Settings' -> /c/Users/memed/AppData/Local/
+lrwxrwxrwx 1 memed 197609      59 janv. 13 15:58 'Menu Démarrer' -> '/c/Users/memed/AppData/Roaming/Microsoft/Windows/Start Menu'/
+lrwxrwxrwx 1 memed 197609      24 janv. 13 15:58
+ 'Mes documents' -> /c/Users/memed/Documents/
+lrwxrwxrwx 1 memed 197609      58 janv. 13 15:58  Modèles -> /c/Users/memed/AppData/Roaming/Microsoft/Windows/Templates/
+drwxr-xr-x 1 memed 197609       0 janv. 13 16:08
+  Music/
+-rw-r--r-- 1 memed 197609 6553600 févr. 17 00:28  NTUSER.DAT
+-rw-r--r-- 1 memed 197609 1572864 janv. 13 15:58  ntuser.dat.LOG1
+-rw-r--r-- 1 memed 197609  917504 janv. 13 15:58  ntuser.dat.LOG2
+-rw-r--r-- 1 memed 197609   65536 janv. 13 15:58  NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf
+-rw-r--r-- 1 memed 197609  524288 janv. 13 15:58  NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 memed 197609  524288 janv. 13 15:58  NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms
+-rw-r--r-- 1 memed 197609      20 janv. 13 15:58  ntuser.ini
+drwxr-xr-x 1 memed 197609       0 févr. 23 12:34
+  OneDrive/
+drwxr-xr-x 1 memed 197609       0 janv. 13 16:08
+  Pictures/
+lrwxrwxrwx 1 memed 197609      55 janv. 13 15:58  Recent -> /c/Users/memed/AppData/Roaming/Microsoft/Windows/Recent/
+drwxr-xr-x 1 memed 197609       0 janv. 13 16:08
+ 'Saved Games'/
+drwxr-xr-x 1 memed 197609       0 janv. 13 16:24
+  Searches/
+lrwxrwxrwx 1 memed 197609      55 janv. 13 15:58  SendTo -> /c/Users/memed/AppData/Roaming/Microsoft/Windows/SendTo/
+-rw-r--r-- 1 memed 197609       0 févr. 29 10:42  toto
+drwxr-xr-x 1 memed 197609       0 févr. 16 14:25
+  Videos/
+lrwxrwxrwx 1 memed 197609      66 janv. 13 15:58 "Voisinage d'impression" -> '/c/Users/memed/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+lrwxrwxrwx 1 memed 197609      66 janv. 13 15:58 'Voisinage réseau' -> '/c/Users/memed/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+$
+memed@Memedjjebri MINGW64 ~
+$ cd desktop
+
+memed@Memedjjebri MINGW64 ~/desktop
+$ ls -a
+ ./                   dossier/
+ ../                  Firefox.lnk*
+ about.html/          helloworld.txt
+ argo.jpg             index.html
+ cats.html            nature-images..jpg
+ clé_a4852176f3.png   references/
+ contact.html        'ships at the sea.lnk'*
+'CSS Basics'/         TERMINAL/
+ desktop.ini          vieuxtacos
+ Discord.lnk*        'Visual Studio Code.lnk'*
+ Document.html       'wild cs'/
+
+memed@Memedjjebri MINGW64 ~/desktop
+$ ls images
+ls: cannot access 'images': No such file or directory
+
+memed@Memedjjebri MINGW64 ~/desktop
+$ ls ./images
+ls: cannot access './images': No such file or directory
+
+memed@Memedjjebri MINGW64 ~/desktop
+$ ls /home
+ls: cannot access '/home': No such file or directory
+
+memed@Memedjjebri MINGW64 ~/desktop
+$ pwd
+/c/Users/memed/desktop
+
+memed@Memedjjebri MINGW64 ~/desktop
+$ cd Images
+bash: cd: Images: No such file or directory
+
+memed@Memedjjebri MINGW64 ~/desktop
+$ cd references
+
+memed@Memedjjebri MINGW64 ~/desktop/references
+$ cd ..
+
+memed@Memedjjebri MINGW64 ~/desktop
+$
