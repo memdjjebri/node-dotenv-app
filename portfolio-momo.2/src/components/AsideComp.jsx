@@ -1,11 +1,9 @@
 import {
   EnvironmentOutlined,
   GithubOutlined,
-  LinkOutlined,
   LinkedinOutlined,
   MailOutlined,
 } from "@ant-design/icons";
-import { Button } from "antd";
 import { educations } from "../data/data";
 
 const AsideComp = () => {
@@ -75,15 +73,11 @@ const AsideComp = () => {
           </div>
         </div>
         <div className="section">
-          <h2>Témoignages</h2>
-          <p>
-            <q>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-              fugiat temporibus suscipit modi ducimus repellat rerum doloribus
-              labore quasi, at velit ratione voluptatem illo, nulla,
-              voluptatibus quis inventore? Incidunt, perspiciatis!
-            </q>
-          </p>
+          <h2>Centre d'interet</h2>
+          <p>Sport</p>
+          <p>Cinéma</p>
+          <p>Voyages</p>
+          <p>Musique</p>
         </div>
         <div className="section">
           <h2>Éducation</h2>

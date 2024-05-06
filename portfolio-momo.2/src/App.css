@@ -65,6 +65,10 @@
   color: #ffffff;
   font-size: 16px;
 }
+.custom-link {
+  color: #14c75b; /* Changer la couleur du lien en rouge */
+  /* Ajoutez d'autres styles au besoin */
+}
 
 /* Body container */
 .main .body-container {
@@ -193,7 +197,7 @@ aside .contacts .contact-item span {
 }
 
 aside .contacts .contact-item span a {
-  color: #0d6e3e;
+  color:white;
 }
 
 aside .section p {

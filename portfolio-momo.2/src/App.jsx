@@ -1,8 +1,7 @@
-import { Button, Divider } from "antd";
+import { Divider } from "antd";
 import "./App.css";
 import HeaderComp from "./components/HeaderComp";
 import FooterComp from "./components/FooterComp";
-import { LikeOutlined, LinkOutlined } from "@ant-design/icons";
 import { experience, projects } from "./data/data";
 import AsideComp from "./components/AsideComp";
 
@@ -38,22 +37,48 @@ function App() {
                   alt="slug"
                 />
                 <div className="project-info">
-                  <p>
-                    {" "}
-                    Frise Chronologique : Retrace les événements clés de
-                    l'histoire via une frise interactive.
-                  </p>
-                  <p>
-                    {" "}
-                    Portfolio Personnel : Met en avant parcours, compétences et
-                    projets avec une expérience fluide.
-                  </p>
-                  <p>
-                    {" "}
-                    Globe Guide : Aide à découvrir et planifier des voyages avec
-                    une interface conviviale.
-                  </p>
+                  <h1>
+                    Lien :
+                    <a
+                      class="custom-link"
+                      href="https://moonlow31.github.io/Projet-Chrono/"
+                    >
+                      Frise chronologique
+                    </a>
+                  </h1>
 
+                  <p>
+                    Retrace les événements clés de l'histoire via une frise
+                    interactive.
+                  </p>
+                  <h1>
+                    {" "}
+                    Lien :
+                    <a
+                      class="custom-link"
+                      href="https://moonlow31.github.io/Projet-Chrono/"
+                    >
+                      Portfolio
+                    </a>
+                  </h1>
+                  <p>
+                    Met en avant parcours, compétences et projets avec une
+                    expérience fluide.
+                  </p>
+                  <h1>
+                    {" "}
+                    Lien :
+                    <a
+                      class="custom-link"
+                      href="https://globe-guide.netlify.app/"
+                    >
+                      Globe Guide
+                    </a>
+                  </h1>
+                  <p>
+                    Aide à découvrir et planifier des voyages avec une interface
+                    conviviale.
+                  </p>
                   <div className="project-link"></div>
                 </div>
               </article>

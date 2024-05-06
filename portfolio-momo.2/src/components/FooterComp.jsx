@@ -3,7 +3,7 @@ const FooterComp = () => {
     <>
       <footer>
         <p>
-          Librairie React JS / Jebri Mohamed, All Right Reserved &copy; Avril
+          Mon Portfolio / Jebri Mohamed, All Right Reserved &copy; Mai
           2024
         </p>
       </footer>
