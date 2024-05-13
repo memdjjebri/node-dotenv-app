@@ -56,7 +56,7 @@ function App() {
                     Lien :
                     <a
                       class="custom-link"
-                      href="https://moonlow31.github.io/Projet-Chrono/"
+                      href="https://new-portfolio-jebri-mohamed.netlify.app/"
                     >
                       Portfolio
                     </a>

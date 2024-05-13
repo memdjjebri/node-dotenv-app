@@ -9,7 +9,7 @@ const HeaderComp = () => {
         <img src={moi} alt="user" />
         <div className="user-infos">
           <h1>JEBRI Mohamed</h1>
-          <h3>Developpuer web et web mobile</h3>
+          <h3>Junior developpeur web et web mobile</h3>
         </div>
       </div>
     </header>
