@@ -1,16 +1,20 @@
 import React from "react";
+import Logo from "../assets/images/Logo.png";
+import Linkedin from "../assets/images/Linkedin.png";
+import Github from "../assets/images/Github.png";
+import Email from "../assets/images/Email.png";
+import "../styles/About.css";
 
 function About() {
   return (
     <div className="container">
       <header className="header">
-        <img src="src\assets\Logo.png" alt="" className="logo" />
+        <img src={Logo} alt="" className="Logo" />
         <h1>Globe Guide</h1>
-        <h2 className="section-title">The team behind Glob guide</h2>
+        <h2 className="section-title">The team behind Globe guide</h2>
         <p className="section-subtitle">Travel far enough, you meet yourself</p>
       </header>
       <div className="team-section">
-        {/* Section sur l'équipe 1 */}
         <div className="team-item">
           <img
             src="https://media.discordapp.net/attachments/1225461642146349148/1230103276947640380/IMG_4572.jpeg?ex=663219f3&is=661fa4f3&hm=e116bc9dd3e647dce93a1b81b308d8de7e50de96c1d4a0c036bc018f5a6d0a7c&=&format=webp&width=467&height=623"
@@ -34,24 +38,33 @@ function About() {
                 <a
                   href="https://www.linkedin.com/in/fanny-pr%C3%AAtre-723630114/"
                   target="blank"
+                  rel="noreferrer"
                 >
-                  <i className="fab fa-linkedin"></i>
+                  <img src={Linkedin} alt="LinkedIn" />
                 </a>{" "}
               </li>
               <li>
-                <a href="https://github.com/fanny-pretre" target="_blank">
-                  <i class="fab fa-github"></i>
+                <a
+                  href="https://github.com/fanny-pretre"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={Github} alt="GitHub" />
                 </a>
               </li>
               <li>
-                <a href="mailto:fanny.pretre@gmail.com" target="blank">
-                  <i className="fas fa-envelope"></i>
+                <a
+                  href="mailto:fanny.pretre@gmail.com"
+                  target="blank"
+                  rel="noreferrer"
+                >
+                  <img src={Email} alt="Email" />
                 </a>{" "}
               </li>
             </ul>
           </div>
         </div>
-        {/* Section sur l'équipe 2*/}
+
         <div className="team-item">
           <img
             src="https://media.discordapp.net/attachments/1225461642146349148/1230128098226343986/20240101_182010.jpg?ex=66323111&is=661fbc11&hm=a6088bbe7cbefd8e984336e6bd2dceb244e7bc5349357c2ddfd238daee268026&=&format=webp&width=467&height=623"
@@ -75,24 +88,33 @@ function About() {
                 <a
                   href="https://www.linkedin.com/in/mohamed-jebri-3a11047b/"
                   target="blank"
+                  rel="noreferrer"
                 >
-                  <i className="fab fa-linkedin"></i>
+                  <img src={Linkedin} alt="LinkedIn" />
                 </a>{" "}
               </li>
               <li>
-                <a href="https://github.com/memdjjebri" target="_blank">
-                  <i class="fab fa-github"></i>
+                <a
+                  href="https://github.com/memdjjebri"
+                  target="blank"
+                  rel="noreferrer"
+                >
+                  <img src={Github} alt="Github" />
                 </a>
               </li>
               <li>
-                <a href="mailto:memedjjebri@gmail.com" target="blank">
-                  <i className="fas fa-envelope"></i>
+                <a
+                  href="mailto:memedjjebri@gmail.com"
+                  target="blank"
+                  rel="noreferrer"
+                >
+                  <img src={Email} alt="Email" />
                 </a>{" "}
               </li>
             </ul>
           </div>
         </div>
-        {/* Section sur l'équipe 3 */}
+
         <div className="team-item">
           <img
             src="https://media.discordapp.net/attachments/1225461642146349148/1230102505564934144/Laurent.jpg?ex=6632193b&is=661fa43b&hm=8fda35696a47ee41a295e63096b64cc63d9bfd47c99245fd0b3863cfa7242412&=&format=webp&width=467&height=623"
@@ -116,24 +138,33 @@ function About() {
                 <a
                   href="https://www.linkedin.com/in/laurent-bauduin-868601250/"
                   target="blank"
+                  rel="noreferrer"
                 >
-                  <i className="fab fa-linkedin"></i>
+                  <img src={Linkedin} alt="LinkedIn" />
                 </a>{" "}
               </li>
               <li>
-                <a href="https://github.com/Laurent-Bauduin" target="_blank">
-                  <i class="fab fa-github"></i>
+                <a
+                  href="https://github.com/Laurent-Bauduin"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={Github} alt="Github" />
                 </a>
               </li>
               <li>
-                <a href="mailto:laurent.bauduin0@gmail.com" target="blank">
-                  <i className="fas fa-envelope"></i>
+                <a
+                  href="mailto:laurent.bauduin0@gmail.com"
+                  target="blank"
+                  rel="noreferrer"
+                >
+                  <img src={Email} alt="Email" />
                 </a>{" "}
               </li>
             </ul>
           </div>
         </div>
-        {/* Section sur l'équipe 4*/}
+
         <div className="team-item">
           <img
             src="https://media.discordapp.net/attachments/1225461642146349148/1230128351318904872/IMG20211217141256.jpg?ex=6632314d&is=661fbc4d&hm=82c36039bd9755760a5893b36274e21cc9c758f7aca477af8a4c9949576abb79&=&format=webp&width=467&height=623"
@@ -158,27 +189,36 @@ function About() {
                 <a
                   href="https://www.linkedin.com/in/simon-bescheron/"
                   target="blank"
+                  rel="noreferrer"
                 >
-                  <i className="fab fa-linkedin"></i>
+                  <img src={Linkedin} alt="LinkedIn" />
                 </a>{" "}
               </li>
               <li>
-                <a href="https://github.com/simonbesch" target="_blank">
-                  <i class="fab fa-github"></i>
+                <a
+                  href="https://github.com/simonbesch"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={Github} alt="Github" />
                 </a>
               </li>
               <li>
-                <a href="mailto:simonbescheron@gmail.com" target="blank">
-                  <i className="fas fa-envelope"></i>
+                <a
+                  href="mailto:simonbescheron@gmail.com"
+                  target="blank"
+                  rel="noreferrer"
+                >
+                  <img src={Email} alt="Email" />
                 </a>{" "}
               </li>
             </ul>
           </div>
         </div>
-        {/* Section sur l'équipe 5*/}
+
         <div className="team-item">
           <img
-            src="https://media.discordapp.net/attachments/1225461642146349148/1230102317517508629/Inspiration_point__.jpg?ex=6632190e&is=661fa40e&hm=a255ad031743fe50c1d89391bcc1fe53259962450ed79844d7e6377c9ec78405&=&format=webp&width=623&height=623"
+            src="https://cdn.pixabay.com/photo/2021/02/10/15/14/lake-6002433_1280.jpg"
             className="team-img"
             alt="pic"
           />
@@ -200,24 +240,33 @@ function About() {
                 <a
                   href="https://www.linkedin.com/in/baptiste-cazenave-9384b3209/"
                   target="blank"
+                  rel="noreferrer"
                 >
-                  <i className="fab fa-linkedin"></i>
+                  <img src={Linkedin} alt="LinkedIn" />
                 </a>{" "}
               </li>
               <li>
-                <a href="https://github.com/baptistesss" target="_blank">
-                  <i class="fab fa-github"></i>
+                <a
+                  href="https://github.com/baptistesss"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={Github} alt="Github" />
                 </a>
               </li>
               <li>
-                <a href="mailto:baptistecaz98@gmail.com" target="blank">
-                  <i className="fas fa-envelope"></i>
+                <a
+                  href="mailto:baptistecaz98@gmail.com"
+                  target="blank"
+                  rel="noreferrer"
+                >
+                  <img src={Email} alt="Email" />
                 </a>{" "}
               </li>
             </ul>
           </div>
         </div>
-        {/* Section sur l'équipe 6 */}
+
         <div className="team-item">
           <img
             src="https://cdn.pixabay.com/photo/2018/04/14/10/13/project-3318662_640.png"
@@ -227,9 +276,11 @@ function About() {
       </div>
       <footer className="footer">
         <div className="footer-content">
-          <p>Travel far enough, you meet yourself</p>
-          <p1>Copyright © 2024 Wild Code School (F.M.S.L.B)</p1>
-          <img src="src\assets\Logo.png" alt="" className="logo" />
+          <div>
+            <p>Travel far enough, you meet yourself</p>
+            <p1>Copyright © 2024 Wild Code School (F.M.S.L.B)</p1>
+          </div>
+          <img src={Logo} alt="" className="logo" />
         </div>
       </footer>
     </div>

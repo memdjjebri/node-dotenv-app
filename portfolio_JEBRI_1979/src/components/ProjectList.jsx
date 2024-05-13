@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 
+
 const projects = [
   {
     id: 1,
@@ -22,13 +23,14 @@ const projects = [
   },
   {
     id: 3,
-    title: "Portfolio.1",
+    title: "Portfolio",
     description:
       "Un projet où j'ai présenté mon parcours, mes compétences, ainsi que les projets sur lesquels j'ai travaillé. Je l'ai développé en utilisant des technologies modernes telles que React et React Router pour créer une expérience utilisateur fluide et interactive. Le portfolio est conçu pour mettre en valeur mes compétences en développement web tout en fournissant un aperçu de ma personnalité et de mon style professionnel.",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGVa9ob0DIgAJO7h1SnnU6o1EXXXTPueDt2_Nm1N55RC9GGtC54Ppjl_DQ-aQ-vvV9Q5U&usqp=CAU",
     link: "https://new-portfolio-jebri-mohamed.netlify.app/",
   },
+  
 ];
 
 const ProjectList = () => {

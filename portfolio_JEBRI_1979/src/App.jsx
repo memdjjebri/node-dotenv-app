@@ -5,6 +5,7 @@ import ProjectsPage from "./pages/ProjectsPage";
 import ProjectPage from "./pages/ProjectPage";
 import ContactPage from "./pages/ContactPage";
 
+
 function App() {
   return (
     <Router>
@@ -21,6 +22,7 @@ function App() {
         <Route exact path="/contact">
           <ContactPage />
         </Route>
+       
       </Switch>
     </Router>
   );

@@ -7,10 +7,11 @@ const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Envoyer les données du formulaire
   };
 
   return (
+    
+    
     <form onSubmit={handleSubmit}>
       <label htmlFor="name">Nom</label>
       <input
@@ -38,6 +39,7 @@ const ContactForm = () => {
       <button type="submit">Envoyer</button>
     </form>
   );
+  
 };
 
 export default ContactForm;
