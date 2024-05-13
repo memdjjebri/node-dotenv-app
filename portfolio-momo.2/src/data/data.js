@@ -3,9 +3,8 @@ export const projects = [
     id: 1,
     image:
       "https://histoiregeolesto.weebly.com/uploads/8/7/4/9/87493018/frise-p-h_1.png",
-    title:
-      "Frise chronologique : histoire de l'humanité.",
- 
+    title: "Frise chronologique : histoire de l'humanité.",
+
     description:
       "Ce projet consistait à créer une frise chronologique interactive retraçant les événements clés de l'histoire de l'humanité. Vous avez utilisé des technologies web telles que HTML, CSS et JavaScript pour concevoir et développer cette frise. Elle permettait aux utilisateurs d'explorer différentes périodes de l'histoire en cliquant sur des points spécifiques pour afficher des informations détaillées.",
   },

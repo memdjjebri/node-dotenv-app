@@ -41,19 +41,32 @@ function App() {
                     Lien :
                     <a
                       class="custom-link"
-                      href="https://moonlow31.github.io/Projet-Chrono/"
+                      href="https://age-calculator-jebri-app.netlify.app/"
                     >
-                      Frise chronologique
+                      Age Calculator
                     </a>
                   </h1>
 
                   <p>
-                    Retrace les événements clés de l'histoire via une frise
-                    interactive.
+                    Un outil simple et pratique qui permet aux
+                    utilisateurs de calculer leur âge en années, mois et jours
+                    en fonction de leur date de naissance.
                   </p>
                   <h1>
-                    {" "}
-                    Lien :
+                    <h1>
+                      Lien :
+                      <a
+                        class="custom-link"
+                        href="https://moonlow31.github.io/Projet-Chrono/"
+                      >
+                        Frise chronologique
+                      </a>
+                    </h1>
+                    <p>
+                      Retrace les événements clés de l'histoire via une frise
+                      interactive.
+                    </p>
+                     Lien :
                     <a
                       class="custom-link"
                       href="https://new-portfolio-jebri-mohamed.netlify.app/"
